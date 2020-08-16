@@ -87,6 +87,22 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+   header{
+     height: 650px;
+     width: 100%;
+     background: url(../img/header-bg.jpg) no-repeat;
+     -moz-background-size: 100%; /* Firefox 3.6+ */
+     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+     -o-background-size: 100%; /* Opera 9.6+ */
+     background-size: 100%; /* Современные браузеры */
+   }
+
+   .header-top{
+    background: rgba(16, 22, 53, 0.2);
+    height: 52px;
+    outline: 1px solid red;
+   }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
