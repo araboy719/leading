@@ -86,7 +86,11 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+.container{
+  width: 975px;
+  margin: 0 auto;
+  position: relative;
+}
 
    header{
      height: 650px;
@@ -102,6 +106,42 @@ textarea {
     background: rgba(16, 22, 53, 0.2);
     height: 52px;
     outline: 1px solid red;
+    position: relative;
+   }
+
+   .logo{
+    width: 90px;
+    position: absolute;
+    top: 16px;
+   }
+
+   header .short-tag{
+     font-size: 14px;
+     color: white;
+     opacity: 0.3;
+     position: absolute;
+     top: 20px;
+     left: 140px;
+   }
+   header .short-tag:before{
+     content: "";
+     width: 1px;
+     height: 15px;
+     position: absolute;
+     left: -19px;
+     top: 2px;
+     background: rgba(50, 176, 238, 1);
+   }
+   .nav{
+     position: absolute;
+     left: 660px;
+     top: 20px;
+   }
+   .nav a{
+     color: #fff;
+     margin-left: 20px;
+     font-size: 10px;
+     text-decoration: none;
    }
 /* ==========================================================================
    Helper classes
